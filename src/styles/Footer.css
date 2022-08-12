@@ -1,0 +1,151 @@
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:  rgba(255, 255, 255, 0.71);;
+    padding-top: 180px;
+    position: fixed;
+    z-index: -2;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-info{
+    font-size: 30px;
+    padding: 30px 0 30px 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-info > h1{
+    padding-bottom: 15px;
+}
+
+.location-box{
+    display: flex;
+    width: 20rem;
+}
+
+.footer-contact {
+    font-size: 20px;
+    padding: 16px 0 18px 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-sns{
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+} 
+
+.sns-links{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.linkedin, .github, .instagram, .location{
+    color: rgb(79, 125, 88);
+    font-size: 35px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.linkedin:hover, .github:hover, .email:hover, .location:hover{
+    border-color: rgb(79, 125, 88);
+    transition: all 0.3s ease-out;
+}
+
+.design-by{
+    font-size: 18px;
+    padding-left: 50px;
+    color:  rgba(255, 255, 255, 0.71);
+}
+
+@media screen and (max-width:960px){
+    .footer{
+        width: 100%;
+        height: 80vh;
+    }
+    .location-box{
+        width: 60%;
+    }
+    
+    .sns-links{
+    margin: 1rem;
+    width: 100%;
+    }
+    .linkedin, .github, .email, .location{
+        color: rgb(79, 125, 88);
+        margin: 1rem;
+    }
+    .footer-contact > h3{
+        font-size: 18px;
+        width: 100%;
+    }
+    .footer-info > h1{
+        font-size: 50px;
+    }
+    .footer-info > p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1030px){
+    .footer-contact {
+        font-size: 20px;
+        padding: 16px 0 30px 0px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:770px){ 
+    .footer-contact {
+        font-size: 20px;
+        padding: 16px 0 30px 0px;
+        width: 100%;
+    }
+    .location-box{
+        width: 100%;
+        align-items: center;
+    }
+    .location-box > p{
+     padding-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width:600px){ 
+    .footer-info > h1{
+        font-size: 40px;
+    }
+    .footer-info > p{
+        font-size: 20px;
+       }
+}
+
+@media screen and (max-width:430px){ 
+    .footer-info > h1{
+        font-size: 25px;
+    }
+    .location-box > p{
+        font-size: 15px !important;
+    }
+    .linkedin, .github, .email, .location{
+        font-size: 20px;
+        margin: .5rem;
+    }
+    .footer-contact > h3{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+

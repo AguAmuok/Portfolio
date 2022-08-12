@@ -1,0 +1,97 @@
+.form-container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-bottom: 100vh;
+    z-index: 3;
+}
+
+.form-container > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    width: 50%;
+    padding: 1rem 0 1rem 0;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.input{
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 2rem;
+    padding-left: 2rem;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-textarea{
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 8rem;
+    resize: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+}
+
+.form-button{
+    width: 30%;
+    height: 3rem;
+    align-self: center;
+    margin-top: 2rem;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #d35872;
+    position: relative;
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.form-button::before{
+    width: 30%;
+    height: 4rem;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms;
+}
+
+.form-button:hover{
+    color: #e8e8e8;
+}
+
+.form-button:hover::before{
+    width: 100%;
+}
+
+.user{
+    color: #d35872;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 4px solid transparent;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.user:hover{
+    border-color: #d35872;
+    transition: all 0.3s ease-out;
+}
