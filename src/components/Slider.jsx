@@ -10,6 +10,21 @@ const Slider = () => {
           <img src="https://imgur.com/Fe4sOr0.png" alt="web" />
         </div>
         <div className='slides-box'>
+        <div className='slide-container-web'>
+            <video className="carousel-video" autoPlay loop muted>
+              <source src="https://imgur.com/ApoztSD.mp4" type='video/mp4' />
+            </video>
+            <div className='slide-desc'>
+              <span>Amazing Events</span>
+              <a href="https://amazingevents-aguamu.netlify.app/" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-earth-americas web"></i>
+              </a>
+              <a href="https://github.com/AguAmuok/Amazing-Events" target="_blank" rel="noreferrer">
+                <i className='fa-solid fa-code git-icon'></i>
+              </a>
+            </div>
+
+          </div>
           <div className='slide-container-web'>
 
             <video className="carousel-video" autoPlay loop muted>
@@ -21,7 +36,7 @@ const Slider = () => {
               <i class="fa-solid fa-earth-americas web"></i>
               </a>
               <a href="https://github.com/AguAmuok/mytinerary-amuchastegui-agustin" target="_blank" rel="noreferrer">
-                <i className='fab fa-github github git-icon'></i>
+              <i className='fa-solid fa-code git-icon'></i>
               </a>
             </div>
 
@@ -34,10 +49,10 @@ const Slider = () => {
             <div className='slide-desc'>
               <span>TecnoCel</span>
               <a href="https://tecnocelweb.herokuapp.com/" target="_blank" rel="noreferrer">
-              <i class="fa-solid fa-earth-americas web"></i>
+              <i class="fa-solid fa-earth-americas web"></i><i class=""></i>
               </a>
               <a href="https://github.com/AguAmuok/TecnoCel---Front" target="_blank" rel="noreferrer">
-                <i className='fab fa-github github git-icon'></i>
+              <i className='fa-solid fa-code git-icon'></i>
               </a>
             </div>
 
@@ -59,7 +74,7 @@ const Slider = () => {
               </video>
               <div className='slide-desc'>
                 <span>My Tinerary Mobile App</span>
-                <i className='fab fa-github github git-icon'></i>
+                <i className='fa-solid fa-code git-icon'></i>
               </div>
             </a>
           </div>
@@ -71,7 +86,7 @@ const Slider = () => {
               </video>
               <div className='slide-desc'>
                 <span>TecnoCel Mobile App</span>
-                <i className='fab fa-github github git-icon'></i>
+                <i className='fa-solid fa-code git-icon'></i>
               </div>
             </a>
           </div>

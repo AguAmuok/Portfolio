@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom";
 // import Form from "./components/Form";
 import Index from "./pages/Index";
 import { Toaster } from 'react-hot-toast'
+import ScrollToTop from "react-scroll-to-top";
+import FileUploadIcon from '@mui/icons-material/FileUpload';
 
 
 function App() {
@@ -39,7 +41,12 @@ function App() {
     {/* <Route path="/formulario" element={<Form />} /> */}
     </Routes>
     
-    <Footer/>    
+    <Footer/>
+    <ScrollToTop
+        style={{ backgroundColor: 'white', opacity: '50%', width: '30px', height: '30px' }}
+        smooth
+        viewBox="0 0 24 24"
+        component={<FileUploadIcon />} />    
     
     </div>
   );

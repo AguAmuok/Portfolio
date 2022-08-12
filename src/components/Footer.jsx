@@ -9,7 +9,7 @@ const Footer = ({isScrolling}) => {
     return (
         <footer className='footer'>
             <div className='footer-info'>
-                <h1>Agustin Amuchástegui</h1>
+                <h1>Agustín Amuchástegui</h1>
                 <div className='location-box'>
                 <i className="fa-solid fa-location-dot location"></i>
                 <p>Córdoba, Argentina</p>
@@ -29,6 +29,9 @@ const Footer = ({isScrolling}) => {
                     </a>
                     <a href="https://www.instagram.com/aguamu.ok/" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-instagram instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/AgussPiki" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-square-twitter instagram"></i>
                     </a>
 
                     {/* <LinkRouter to="/formulario" onClick={toTheTop}>
