@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 960px){
     .tech-container {
-       flex-direction: column;
-       height: 600px;  
+        flex-direction: column;
+        height: 600px;  
     }
     .img-container{
         width: 70%;

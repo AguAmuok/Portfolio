@@ -117,7 +117,7 @@
         align-items: center;
     }
     .location-box > p{
-     padding-bottom: .5rem;
+        padding-bottom: .5rem;
     }
 }
 
@@ -127,7 +127,7 @@
     }
     .footer-info > p{
         font-size: 20px;
-       }
+    }
 }
 
 @media screen and (max-width:430px){ 
@@ -137,7 +137,7 @@
     .location-box > p{
         font-size: 15px !important;
     }
-    .linkedin, .github, .email, .location{
+    .linkedin, .github, .instagram, .location{
         font-size: 20px;
         margin: .5rem;
     }
