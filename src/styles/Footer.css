@@ -59,7 +59,7 @@
     border-bottom: 4px solid transparent;
 }
 
-.linkedin:hover, .github:hover, .email:hover, .location:hover{
+.linkedin:hover, .github:hover, .instagram:hover, .location:hover{
     border-color: rgb(79, 125, 88);
     transition: all 0.3s ease-out;
 }
