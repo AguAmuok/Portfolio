@@ -130,7 +130,12 @@
     }
 }
 
-@media screen and (max-width:430px){ 
+@media screen and (max-width:431px){ 
+    .footer-sns{
+        display: flex;
+        flex-direction: column;
+        
+    }
     .footer-info > h1{
         font-size: 25px;
     }
@@ -140,12 +145,20 @@
     .linkedin, .github, .instagram, .location{
         font-size: 20px;
         margin: .5rem;
+        
     }
     .footer-contact > h3{
         font-size: 12px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        
     }
+    
 }
-
-
+@media screen and (max-width:430px){
+    .linkedin, .github, .instagram{
+        margin-right: 3.1rem
+}
+}
 
