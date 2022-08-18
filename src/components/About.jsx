@@ -13,9 +13,11 @@ function About() {
                 <button className="cv-button">
                     <a href="./CVAGUSTINAMUCHASTEGUI.pdf" target="_blank" rel="noreferrer">MI CV</a>
                 </button>
+
                 {/* <button className="cv-button">
                     <a href="./CVLucianaRossa-English.pdf" target="_blank" rel="noreferrer">MY ENGLISH CV</a>
                 </button> */}
+                
                 </div>
             </div>
             <div className="about-img">

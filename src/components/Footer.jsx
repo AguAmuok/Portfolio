@@ -6,6 +6,7 @@ const Footer = ({isScrolling}) => {
     // const toTheTop = () => {
     //     window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     // }
+    
     return (
         <footer className='footer'>
             <div className='footer-info'>
