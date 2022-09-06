@@ -34,6 +34,7 @@ const Footer = ({isScrolling}) => {
                     <a href="https://twitter.com/AgussPiki" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-square-twitter instagram"></i>
                     </a>
+                    
 
                     {/* <LinkRouter to="/formulario" onClick={toTheTop}>
                     <i class="fa-brands fa-instagram instagram"></i>
