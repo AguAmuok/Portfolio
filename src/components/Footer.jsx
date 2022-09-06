@@ -22,7 +22,7 @@ const Footer = ({isScrolling}) => {
                     <h3>¿ Dudas, consultas, preguntas ? Espero su contacto!</h3>
                 </div>
                 <div className='sns-links'>
-                    <a href="https://www.linkedin.com/in/agustin-amuch%C3%A1stegui-526ab9ba/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/agust%C3%ADn-amuch%C3%A1stegui-526ab9ba/" target="_blank" rel="noreferrer">
                         <i className='fab fa-linkedin linkedin'></i>
                     </a>
                     <a href="https://github.com/AguAmuok" target="_blank" rel="noreferrer">
