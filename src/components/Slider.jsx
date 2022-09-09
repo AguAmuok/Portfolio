@@ -48,7 +48,7 @@ const Slider = () => {
             </video>
             <div className='slide-desc'>
               <span>TecnoCel</span>
-              <a href="https://tecnocelweb.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href="https://tecnocel-app.herokuapp.com/" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-earth-americas web"></i><i class=""></i>
               </a>
               <a href="https://github.com/AguAmuok/TecnoCel---Front" target="_blank" rel="noreferrer">
