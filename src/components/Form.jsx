@@ -13,13 +13,24 @@ export const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_anf1hij', 'template_dm6p99n', form.current, 'n9JmVMNtg7ilBxuJR')
+        // Obtén los valores de los campos del formulario
+        const userName = form.current.querySelector('[name="user_name"]').value;
+        const userEmail = form.current.querySelector('[name="user_email"]').value;
+        const message = form.current.querySelector('[name="message"]').value;
+
+        // Verifica si alguno de los campos está vacío
+        if (!userName || !userEmail || !message) {
+            toast("Por favor, completa todos los campos del formulario.");
+            return;
+        }
+
+        emailjs.sendForm('service_j9xpail', 'template_ph2rufr', form.current, 'i5BlUrAQgdHYhMjdD') 
             .then((result) => {
                 e.target.reset()
                 toast("Gracias por tu mensaje 😁")
                 navigate("/")
             }, (error) => {
-                toast("Algo paso volvé a intentar 😞");
+                toast("Algo ocurrio vuelve a intentar 😞");
             });
     };
 

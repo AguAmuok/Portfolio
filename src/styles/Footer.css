@@ -51,7 +51,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.linkedin, .github, .instagram, .location{
+.linkedin, .github, .instagram, .location, .fa-regular{
     color: rgb(79, 125, 88);
     font-size: 35px;
     margin: 0 auto;

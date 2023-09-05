@@ -49,7 +49,7 @@
     border-radius: 15px;
     color: #212121;
     z-index: 1;
-    background: #d35872;
+    background: rgb(79, 125, 88);
     position: relative;
     transition: all 250ms;
     overflow: hidden;
@@ -82,7 +82,7 @@
 }
 
 .user{
-    color: #d35872;
+    color: rgb(79, 125, 88);
     font-size: 50px;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -92,6 +92,6 @@
 }
 
 .user:hover{
-    border-color: #d35872;
+    border-color: rgb(79, 125, 88);
     transition: all 0.3s ease-out;
 }

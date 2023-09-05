@@ -3,7 +3,7 @@ import "./styles/App.css"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-// import Form from "./components/Form";
+import Form from "./components/Form"; ////esta linea es para el formulario de mail
 import Index from "./pages/Index";
 import { Toaster } from 'react-hot-toast'
 import ScrollToTop from "react-scroll-to-top";
@@ -38,7 +38,7 @@ function App() {
     <Navbar isScrolling={scrollHeight}/>
     <Routes>
     <Route path="/" element={<Index/>}/>
-    {/* <Route path="/formulario" element={<Form />} /> */}
+    <Route path="/formulario" element={<Form />} />
     </Routes>
     
     <Footer/>

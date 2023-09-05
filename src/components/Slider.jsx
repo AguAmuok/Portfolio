@@ -13,12 +13,13 @@ const Slider = () => {
         <div className='slide-container-web'>
             <video className="carousel-video" autoPlay loop muted>
               <source src="https://imgur.com/ApoztSD.mp4" type='video/mp4' />
+              
             </video>
             <div className='slide-desc'>
               <span>Amazing Events</span>
-              <a href="https://amazingevents-aguamu.netlify.app/" target="_blank" rel="noreferrer">
+              {/* <a href="https://amazingevents-aguamu.netlify.app/" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-earth-americas web"></i>
-              </a>
+              </a> */}
               <a href="https://github.com/AguAmuok/Amazing-Events" target="_blank" rel="noreferrer">
                 <i className='fa-solid fa-code git-icon'></i>
               </a>
@@ -32,9 +33,9 @@ const Slider = () => {
             </video>
             <div className='slide-desc'>
               <span>My Tinerary</span>
-              <a href="https://my-tinerary-agustin-amu-front.herokuapp.com/" target="_blank" rel="noreferrer">
+              {/* <a href="https://my-tinerary-agustin-amu-front.herokuapp.com/" target="_blank" rel="noreferrer"> 
               <i class="fa-solid fa-earth-americas web"></i>
-              </a>
+              </a> */}
               <a href="https://github.com/AguAmuok/mytinerary-amuchastegui-agustin" target="_blank" rel="noreferrer">
               <i className='fa-solid fa-code git-icon'></i>
               </a>
@@ -48,9 +49,9 @@ const Slider = () => {
             </video>
             <div className='slide-desc'>
               <span>TecnoCel</span>
-              <a href="https://tecnocel-app.herokuapp.com/" target="_blank" rel="noreferrer">
+              {/* <a href="https://tecnocel-app.herokuapp.com/" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-earth-americas web"></i><i class=""></i>
-              </a>
+              </a> */}
               <a href="https://github.com/AguAmuok/TecnoCel---Front" target="_blank" rel="noreferrer">
               <i className='fa-solid fa-code git-icon'></i>
               </a>
