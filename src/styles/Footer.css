@@ -51,7 +51,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.linkedin, .github, .instagram, .location, .fa-regular{
+.linkedin, .github, .instagram, .location, .envelope{
     color: rgb(79, 125, 88);
     font-size: 35px;
     margin: 0 auto;
@@ -83,7 +83,7 @@
     margin: 1rem;
     width: 100%;
     }
-    .linkedin, .github, .instagram, .location{
+    .envelope, .linkedin, .github, .instagram, .location{
         color: rgb(79, 125, 88);
         margin: 1rem;
     }
@@ -142,7 +142,7 @@
     .location-box > p{
         font-size: 15px !important;
     }
-    .linkedin, .github, .instagram, .location{
+    .envelope, .linkedin, .github, .instagram, .location{
         font-size: 20px;
         margin: .5rem;
         
@@ -157,7 +157,7 @@
     
 }
 @media screen and (max-width:430px){
-    .linkedin, .github, .instagram{
+    .envelope, .linkedin, .github, .instagram{
         margin-right: 3.1rem
 }
 }
