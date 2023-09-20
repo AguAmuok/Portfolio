@@ -26,7 +26,7 @@
     border-radius: 10px;
     border: 2px solid black;
     height: 2rem;
-    padding-left: 2rem;
+    padding-left: 0.5rem;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,7 +37,7 @@
     border: 2px solid black;
     height: 8rem;
     resize: none;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     font-size: 15px;
 }
 
