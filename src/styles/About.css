@@ -91,7 +91,7 @@
     overflow: hidden;
     border-radius: 50%;
     overflow:hidden;
-    transition:all 2s;
+    transition:all 0.8s;
     filter:grayscale(100%);
     cursor: none
     
@@ -100,7 +100,7 @@
 .about-img:hover{
     -webkit-transform:scale(1);transform:scale(1.1);
     filter: grayscale(0%);
-    transition:all 2s,
+    transition:all 0.8s,
     
 }
 
