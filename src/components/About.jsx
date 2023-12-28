@@ -15,7 +15,7 @@ function About() {
                 </button>
 
                 <button className="cv-button">
-                    <a href="./ENGLISHCVAGUSTINAMUCHASTEGUI.pdf" target="_blank" rel="noreferrer">MY ENGLISH CV</a>
+                    <a href="./ENGLISHCVAGUSTINAMUCHASTEGUI.pdf" target="_blank" rel="noreferrer">ENGLISH CV</a>
                 </button>
                 
                 </div>
