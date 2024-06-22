@@ -15,7 +15,7 @@ const Footer = ({isScrolling}) => {
                 <h1>Agustín Amuchástegui</h1>
                 <div className='location-box'>
                 <i className="fa-solid fa-location-dot location"></i>
-                <p>Córdoba, Argentina</p>
+                <p>Málaga, España</p>
                 </div>   
             </div>
 
